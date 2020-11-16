@@ -1,8 +1,15 @@
 {
-  "name": "next-template",
+  "name": "@edgeking810/create-next-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple next app with React and Tailwind.",
   "main": "index.js",
+  "bin": {
+    "create-next-app": "./install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://repo.kinesis.games/react/next-template"
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
@@ -10,7 +17,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^3.0.0",
     "next": "^10.0.1",
